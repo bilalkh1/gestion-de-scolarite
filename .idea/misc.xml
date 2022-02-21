@@ -3,11 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Master/MyApplication2/app/src/main/res/layout/activity_add_module.xml" value="0.36666666666666664" />
         <entry key="..\:/Master/MyApplication2/app/src/main/res/layout/activity_add_student.xml" value="0.36666666666666664" />
         <entry key="..\:/Master/MyApplication2/app/src/main/res/layout/activity_all_modules.xml" value="0.36666666666666664" />
         <entry key="..\:/Master/MyApplication2/app/src/main/res/layout/activity_all_student.xml" value="0.36666666666666664" />
         <entry key="..\:/Master/MyApplication2/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Master/MyApplication2/app/src/main/res/layout/activity_update.xml" value="0.36666666666666664" />
+        <entry key="..\:/Master/MyApplication2/app/src/main/res/layout/module_row.xml" value="0.36666666666666664" />
         <entry key="..\:/Master/MyApplication2/app/src/main/res/layout/my_row.xml" value="0.33" />
       </map>
     </option>

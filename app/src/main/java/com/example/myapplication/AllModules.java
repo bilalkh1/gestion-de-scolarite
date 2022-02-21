@@ -19,7 +19,7 @@ public class AllModules extends AppCompatActivity {
     FloatingActionButton btn_add;
 
     DatabaseHelper databaseHelper;
-    StudentAdapter studentAdapter;
+    ModuleAdapter moduleAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,7 +37,7 @@ public class AllModules extends AppCompatActivity {
         btn_add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(AllModules.this, AddStudent.class);
+                Intent intent = new Intent(AllModules.this, AddModule.class);
                 startActivity(intent);
             }
         });
@@ -46,10 +46,10 @@ public class AllModules extends AppCompatActivity {
 
         if (modules.size() > 0) {
             System.out.println("HEEERE");
-//            studentAdapter = new StudentAdapter(modules, AllModules.this);
-//            recyclerView.setAdapter(studentAdapter);
+            moduleAdapter = new ModuleAdapter(modules, AllModules.this);
+            recyclerView.setAdapter(moduleAdapter);
         }else {
-            Toast.makeText(this, "There is no student in database", Toast.LENGTH_SHORT);
+            Toast.makeText(this, "There is no modules in database", Toast.LENGTH_SHORT);
         }
 
         ActionBar ab = getSupportActionBar();
